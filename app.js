@@ -1,4 +1,5 @@
-const title = document.getElementById("title");
+const title = document.querySelector("div.hello:first-child h1");
 
-title.innerText = "innerText";
-title.innerText = "innerText";
+console.dir(title);
+
+title.style.color = "blue";
