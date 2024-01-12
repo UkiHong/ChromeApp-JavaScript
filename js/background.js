@@ -5,7 +5,9 @@ const chosenImage = images[[Math.floor(Math.random() * images.length)]];
 const bgImage = document.createElement("img");
 
 bgImage.src = `img/${chosenImage}`;
+
 //background images 깔끔하게 넣는법
+//bgImage.src = `img/${chosenImage}`; 아 코드 지우고 아래 입력
 //document.body.style.backgroundImage = `url(img/${chosenImage})`;
 //document.body.style.backgroundPosition = "top";
 //document.body.style.backgroundRepeat = "no-repeat";
