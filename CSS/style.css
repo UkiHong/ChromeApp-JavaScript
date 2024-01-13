@@ -1,3 +1,69 @@
 .hidden {
   display: none;
 }
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  position: relative;
+  color: white;
+}
+
+#clock {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  font-size: 150px;
+  margin-bottom: 20px; /* Adjust the margin to your preference */
+}
+
+#login-form,
+#greeting,
+#quote,
+#weather {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  font-size: 30px;
+  margin-top: 20px; /* Adjust the margin to your preference */
+}
+
+#login-form input[type="text"] {
+  width: 250px; /* Adjust the width to your preference */
+  padding: 8px; /* Adjust the padding to your preference */
+  font-size: 14px; /* Adjust the font size to your preference */
+}
+
+#login-form input[type="submit"] {
+  width: 50px; /* Adjust the width to your preference */
+  padding: 8px; /* Adjust the padding to your preference */
+  font-size: 14px; /* Adjust the font size to your preference */
+}
+
+#todo-form input {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+#todo-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  z-index: 1;
+}
+
+#todo-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  padding: 10px;
+  position: relative;
+  z-index: 1;
+}
