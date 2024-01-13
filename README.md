@@ -1,14 +1,14 @@
 To-Do List Chrome App Project
 
 1. Tech Specs
-HTML5
-CSS
-JavaScript
+- HTML5
+- CSS
+- JavaScript
 
 3. Project Goals
-Using JavaScript to Produce a To-Do Web Application
-HTML, CSS recap
-Utilising Weather APIs
+- Using JavaScript to Produce a To-Do Web Application
+- HTML, CSS recap
+- Utilising Weather APIs
 
 4. Main Feature
 - Random Background Images
